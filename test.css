@@ -50,3 +50,68 @@ body {
   background-color: aqua;
   color: black;
 }
+/* footer sect */
+.footer-sec {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* font-size: 18px;
+  text-transform: capitalize;
+  font-weight: bold; */
+  padding: 20px 0;
+  background-color: black;
+  color: white;
+}
+.footer-sec .tabs {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 40px 0px;
+}
+
+.footer-sec .tabs .section1 {
+  display: flex;
+  flex-direction: column;
+  width: 24%;
+  gap: 5px;
+  padding: 0 10px;
+}
+
+.footer-sec .tabs .section1 h1 {
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.footer-sec .tabs .section2 h1 {
+  font-size: 18px;
+  font-weight: 400;
+}
+.footer-sec .tabs .section2 {
+  display: flex;
+  flex-direction: column;
+  width: 24%;
+  gap: 5px;
+}
+.footer-sec .tabs .section2 .btn-align .p-icon {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.footer-sec .tabs .section2 .btn-align .p-icon i {
+  font-size: 20px;
+  color: red;
+}
+.footer-sec .tabs .section2 .btn-align {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-sec .copyright {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-top: 2px solid white;
+  padding: 15px 0;
+}
